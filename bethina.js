@@ -24,34 +24,33 @@ function drive() {
         // Du finner en ting!
         let item = getRandomItem();
     }
+
 }
 
 function getRandomItem() {
 
     // array med ting fra Thomas
-   return items[Math.floor(Math.random() * items.lenght)];
+   //return items[Math.floor(Math.random() * items.lenght)];
 }
 
 
 function greetFriend (selectedGreeting) {
     if (selectedGreeting === preferredGreeting) {
-        broHappy()
-       
-        // Kompisen din likte hilsen din! Du får kjøre videre
+        score += 2;
+        // Kompisen din likte hilsen din! Du får 2 poeng og får kjøre videre
     }else {
-        broMad()
-       
-        // Kompisen din likte ikke hilsen din
+        score -= 1;
+        // Kompisen din likte ikke hilsen din, minus 1 poeng!
     }
 }
 
 
 function randomFriend() {
-    const friends = ['Thomas', 'Gytis', 'Lars', 'Bethina', 'Daniel'];
+    let friends = ['Thomas', 'Gytis', 'Lars', 'Bethina', 'Daniel'];
     return friends [Math.floor(Math.Random() * friends.length)];
 }
 
 function randomGreeting (){
-    const greeting = ['Hei!', 'High-Five!', 'Fist Bump!'];
+    let greeting = ['Hei!', 'High-Five!', 'Fist Bump!'];
     return greeting[Math.floor(Math.random()* greeting.length)];
 }
