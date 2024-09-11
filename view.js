@@ -1,11 +1,6 @@
 const main = document.getElementById("main");
-let textbox = [
-    "You are driving ",
-    "you ingored karen",
-    "you picked up karen",
-    "you greeted karen",
-    "you high fived karen",
-];
+let eventBox = document.getElementById("textB");
+
 
 dispMain();
 
@@ -23,6 +18,7 @@ function dispMain() {
         <button onclick="randAction(7)">6</button>
         <button onclick="randAction(8)">7</button>
         <button onclick="randAction(9)">8</button>
+        <button onclick="getRandomItem()">Kjør</button>
     `;
 }
 
@@ -31,7 +27,5 @@ const disp2 = document.getElementById("disp2");
 
 //-------------------------------------------------------------
 
-updateTextBox()
-function updateTextBox() {
-    
-}
+updateTextBox();
+function updateTextBox() {}
