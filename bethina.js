@@ -22,6 +22,7 @@ function drive() {
         preferredGreeting = randomGreeting();
     } else if (randomEvent === 3) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 <<<<<<< HEAD
@@ -29,8 +30,11 @@ function drive() {
 >>>>>>> 9568591c0d9648f2c45fd081dc53dc8a4934ce73
         
 =======
+=======
+>>>>>>> c761f86 (asdjkrewfsd)
         meetingKaren();
->>>>>>> fc1b4fe (qwedasfgdert)
+
+        meetingKaren();
         // Du møter på Karen
     } else if (randomEvent === 4) {
 <<<<<<< HEAD
