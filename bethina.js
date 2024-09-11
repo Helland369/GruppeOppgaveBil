@@ -6,6 +6,7 @@ function drive() {
     let randomEvent = Math.floor(Math.Random() * 4 + 1);
 
     if (randomEvent === 1) {
+        driveText()
         // Kjører videre og ingenting skjer
     } else if (randomEvent === 2) {
         // Du møter en kompis
