@@ -67,5 +67,41 @@ function randomKul() {
             <button onclick="randAction(3)">Kul3</button>
             <button onclick="randAction(2)">Kul2</button>
         `;
+    } else if (random == array[3]) {
+        disp2.innerHTML = `
+            <button onclick="randAction(4)">Ikke kul1</button>
+            <button onclick="randAction(5)">Ikke kul2</button>
+            <button onclick="randAction(6)">Ikke kul3</button>
+        `;
+    } else if (random == array[4]) {
+        disp2.innerHTML = `
+            <button onclick="randAction(5)">Ikke kul2</button>
+            <button onclick="randAction(6)">Ikke kul3</button>
+            <button onclick="randAction(4)">Ikke kul1</button>
+        `;
+    } else if (random == array[5]) {
+        disp2.innerHTML = `
+            <button onclick="randAction(6)">Ikke kul3</button>
+            <button onclick="randAction(5)">Ikke kul2</button>
+            <button onclick="randAction(4)">Ikke kul1</button>
+        `;
+    } else if (random == array[6]) {
+        disp2.innerHTML = `
+            <button onclick="randAction(7)">Yo</button>
+            <button onclick="randAction(8)">Hallo</button>
+            <button onclick="randAction(9)">Morn</button>
+        `;
+    } else if (random == array[7]) {
+        disp2.innerHTML = `
+            <button onclick="randAction(8)">Hallo</button>
+            <button onclick="randAction(7)">Yo</button>
+            <button onclick="randAction(9)">Morn</button>
+        `;
+    } else if (random == array[8]) {
+        disp2.innerHTML = `
+            <button onclick="randAction(9)">Morn</button>
+            <button onclick="randAction(7)">Yo</button>
+            <button onclick="randAction(8)">Hallo</button>
+        `;
     }
 }
