@@ -6,21 +6,21 @@ function drive() {
     let randomEvent = Math.floor(Math.Random() * 4 + 1);
 
     if (randomEvent === 1) {
-        driveText()
+        
         // Kjører videre og ingenting skjer
     } else if (randomEvent === 2) {
         
-        meetingBro()
+        
         // Du møter en kompis
         currentFriend = randomFriend();
         preferredGreeting = randomGreeting();
         
     } else if (randomEvent === 3) {
-        meetingKaren()
+        
         
         // Du møter på Karen
     } else if (randomEvent === 4) {
-        foundItemText()
+        
         
         // Du finner en ting!
         let item = getRandomItem();
