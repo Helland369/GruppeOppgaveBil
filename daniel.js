@@ -14,6 +14,7 @@ let textbox = [
 ];
 let value;
 
+<<<<<<< HEAD
  function driveText() {
       if (textbox == [0]) {
           main.innerHTML = textbox [0];
@@ -22,6 +23,16 @@ let value;
   }
  
 function ignoreText() {
+=======
+function driveText() {
+    if (textbox == [0]) {
+        main.innerHTML = textbox[0];
+    }
+    console.log(drive);
+}
+
+function ignore() {
+>>>>>>> 7b22b9346829467fc56cb9a9c2ba4da623f5355e
     if (textbox == [1]) {
         main.innerHTML = textbox [1];
     }
