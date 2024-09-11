@@ -5,9 +5,16 @@
 // textbox på GodDag
 // textbox på HighFive
 
-let textbox = ['You are driving', 'you ingored karen', 'you picked up karen', 'you greeted karen', 'you high fived karen']
+let textbox = [
+    "You are driving",
+    "you ingored karen",
+    "you picked up karen",
+    "you greeted karen",
+    "you high fived karen",
+];
 let value = 0;
 
+<<<<<<< HEAD
 
 
 function drive(){
@@ -104,3 +111,68 @@ console.log(hils3)
 
 
 
+=======
+/* function drive(){
+ * if(){
+ *
+ * }
+ *
+ *
+ *
+ *
+ *
+ * }
+ *
+ * function ignore(){
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * }
+ *
+ *
+ * function pickUp(){
+ *
+ *
+ *
+ *
+ *
+ *
+ * }
+ *
+ *
+ * function hils1(){
+ *
+ *
+ *
+ * }
+ *
+ *
+ * function hils2(){
+ *
+ *
+ *
+ *
+ * }
+ *
+ * function hils3(){
+ *
+ *
+ *
+ *
+ *
+ *
+ * }
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *  */
+>>>>>>> 7554c72 (jajajaj)

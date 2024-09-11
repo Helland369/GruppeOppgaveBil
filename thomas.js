@@ -7,9 +7,11 @@ let array = [
     "Ikke kul1",
     "Ikke kul2",
     "Ikke kul3",
-    "Yo",
-    "Hallo",
-    "Morn",
+    "Kompis sier Yo",
+    "Kompis sier Hallo",
+    "Kompis sier Morn",
+    "Kompis",
+    "Karen",
 ];
 
 //let hils = ["Yo", "Hallo", "Morn"];

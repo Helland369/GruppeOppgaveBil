@@ -4,6 +4,7 @@ dispMain();
 
 function dispMain() {
     main.innerHTML = `
+        <button onclick="getRandomItem()">Kjør</button>
         <button onclick="randAction(1)">1</button>
         <button onclick="randAction(2)">2</button>
         <button onclick="randAction(3)">3</button>
