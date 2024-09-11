@@ -17,6 +17,7 @@ function drive() {
         
     } else if (randomEvent === 3) {
         meetingKaren()
+        
         // Du møter på Karen
     } else if (randomEvent === 4) {
         foundItemText()
