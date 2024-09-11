@@ -65,8 +65,8 @@ function meetingBro(){
 if(textbox == [6]){
 textB.innerHTML = textbox[6];
 }
-}
 
+}
 function meetingKaren(){
 if(textbox == [7]){
 textB.innerHTML = textbox[7];
