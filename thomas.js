@@ -10,7 +10,9 @@ let array = [
     "Morn",
 ];
 
-let hils = ["Yo", "Hallo", "Morn"];
+//let hils = ["Yo", "Hallo", "Morn"];
+
+let random = array[Math.floor(Math.random() * array.length)];
 
 //hilsner(1);
 function hilsner(hei) {
