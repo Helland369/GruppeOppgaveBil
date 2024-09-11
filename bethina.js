@@ -16,11 +16,14 @@ function drive() {
         preferredGreeting = randomGreeting();
     } else if (randomEvent === 3) {
 
+<<<<<<< HEAD
         // Du møter på Karen
     } else if (randomEvent === 4) {
     
         meetingKaren()
         
+=======
+>>>>>>> 1cb38f7 (Hei å hå)
         // Du møter på Karen
     } else if (randomEvent === 4) {
         foundItemText();
