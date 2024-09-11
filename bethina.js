@@ -5,45 +5,25 @@ function drive() {
     let randomEvent = Math.floor(Math.Random() * 4 + 1);
 
     if (randomEvent === 1) {
-<<<<<<< HEAD
-        
         // Kjører videre og ingenting skjer
     } else if (randomEvent === 2) {
-        
-        
-=======
         driveText();
         // Kjører videre og ingenting skjer
     } else if (randomEvent === 2) {
         meetingBro();
->>>>>>> 9568591c0d9648f2c45fd081dc53dc8a4934ce73
         // Du møter en kompis
         currentFriend = randomFriend();
         preferredGreeting = randomGreeting();
     } else if (randomEvent === 3) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-=======
-<<<<<<< HEAD
-        meetingKaren()
->>>>>>> 9568591c0d9648f2c45fd081dc53dc8a4934ce73
-        
-=======
-=======
->>>>>>> c761f86 (asdjkrewfsd)
+        meetingKaren();
+
         meetingKaren();
 
         meetingKaren();
         // Du møter på Karen
     } else if (randomEvent === 4) {
-<<<<<<< HEAD
-        
-        
-=======
         foundItemText();
 
->>>>>>> 9568591c0d9648f2c45fd081dc53dc8a4934ce73
         // Du finner en ting!
         let item = getRandomItem();
     }
