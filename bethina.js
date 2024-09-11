@@ -5,6 +5,8 @@ function drive() {
     let randomEvent = Math.floor(Math.Random() * 4 + 1);
 
     if (randomEvent === 1) {
+        // Kjører videre og ingenting skjer
+    } else if (randomEvent === 2) {
         driveText();
         // Kjører videre og ingenting skjer
     } else if (randomEvent === 2) {
@@ -16,8 +18,7 @@ function drive() {
 
         // Du møter på Karen
     } else if (randomEvent === 4) {
-        foundItemText()
-
+    
         meetingKaren()
         
         // Du møter på Karen
