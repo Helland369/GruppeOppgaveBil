@@ -12,7 +12,7 @@ let textbox = [
     "you greeted karen",
     "you high fived karen",
 ];
-let value = 0;
+let value;
 
  function driveText() {
       if (textbox == [0]) {
@@ -21,14 +21,14 @@ let value = 0;
       console.log(drive);
   }
  
-function ignore() {
+function ignoreText() {
     if (textbox == [1]) {
         main.innerHTML = "";
     }
     console.log(ignore);
 }
 
-function pickUp() {
+function pickUpText() {
     if (textbox == [2]) {
         main.innerHTML = "";
     }
