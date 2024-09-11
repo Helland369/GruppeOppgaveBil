@@ -19,12 +19,13 @@ function drive() {
         // Du finner en ting!
         let item = getRandomItem();
     }
+    console.log(drive);
 }
 
 function getRandomItem() {
 
     // array med ting fra Thomas
-   return items[Math.floor(Math.random() * items.lenght)];
+   //return items[Math.floor(Math.random() * items.lenght)];
 }
 
 

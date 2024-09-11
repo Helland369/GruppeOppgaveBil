@@ -1,4 +1,11 @@
 const main = document.getElementById("main");
+let textbox = [
+    "You are driving ",
+    "you ingored karen",
+    "you picked up karen",
+    "you greeted karen",
+    "you high fived karen",
+];
 
 dispMain();
 
@@ -6,7 +13,7 @@ function dispMain() {
     main.innerHTML = `
         <div id="disp"></div>
         <div id="disp2"></div>
-        <button onclick="getRandomItem()">Kjør</button>
+        <button onclick="getRandomItem()">Kjør</button>  
         <button onclick="randAction(1)">1</button>
         <button onclick="randAction(2)">2</button>
         <button onclick="randAction(3)">3</button>
@@ -21,3 +28,10 @@ function dispMain() {
 
 const disp = document.getElementById("disp");
 const disp2 = document.getElementById("disp2");
+
+//-------------------------------------------------------------
+
+updateTextBox()
+function updateTextBox() {
+    
+}
