@@ -9,8 +9,8 @@ function drive() {
         driveText()
         // Kjører videre og ingenting skjer
     } else if (randomEvent === 2) {
+        
         meetingBro()
-       
         // Du møter en kompis
         currentFriend = randomFriend();
         preferredGreeting = randomGreeting();
