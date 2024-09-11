@@ -1,12 +1,14 @@
 
         /* let hit = */
        
-        /*  1. Hovedspill (cred/hilsen) score -> max 10 poeng.
-            3. Kjøre på bestemor/Karen score (en egen score?)
-            4. Plukke opp ting knapp (hva?) (samme som #1?)
+        /*
+            1. Hovedscore (cred/hilsen) score -> max 10 poeng.
+            2. Credscore (sendes til #1)
+            3. Kjøre over Karen score (?)
         */
 
-        /* HILSEN/CRED SCORE */
+        /*
+        HILSEN/CRED SCORE: 
         Underkjent hilsen
         console.log ("Hva for slags hilsen er dette!? Ingen credscore!"); // 10% sjangse å få
         Slapp hilsen
@@ -17,7 +19,7 @@
         console.log ("Über fet hilsen! Cred score +3"); // 20% sjangse å få
         Mega maximus über fet hilsen
         console.log ("Dette er en hilsen av de sjeldne! Cred score +5!!!"); // 5% sjangse å få
-
+        */
 
         let score = 10; // Hoved score. Max 10 poeng.
 
