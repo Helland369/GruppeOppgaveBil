@@ -8,7 +8,6 @@ function dispMain() {
     main.innerHTML = `
         <div id="disp"></div>
         <div id="disp2"></div>
-<<<<<<< HEAD
         <button onclick="getRandomItem()">Kjør</button>  
         <button onclick="randAction(1)">1</button>
         <button onclick="randAction(2)">2</button>
@@ -19,9 +18,7 @@ function dispMain() {
         <button onclick="randAction(7)">6</button>
         <button onclick="randAction(8)">7</button>
         <button onclick="randAction(9)">8</button>
-=======
         <button onclick="getRandomItem()">Kjør</button>
->>>>>>> 9e0ab21 (Halla)
     `;
 }
 
@@ -30,7 +27,5 @@ const disp2 = document.getElementById("disp2");
 
 //-------------------------------------------------------------
 
-updateTextBox()
-function updateTextBox() {
-    
-}
+updateTextBox();
+function updateTextBox() {}
