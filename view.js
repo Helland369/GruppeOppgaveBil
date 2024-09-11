@@ -7,7 +7,7 @@ function dispMain() {
     main.innerHTML = `
         <div id="disp"></div>
         <div id="disp2"></div>
-        <button onclick="getRandomItem()">Kjør</button>  
+        <button onclick="randomKul()">Kjør</button>  
     `;
 }
 

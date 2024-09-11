@@ -10,8 +10,6 @@ let array = [
     "Kompis sier Yo",
     "Kompis sier Hallo",
     "Kompis sier Morn",
-    "Kompis",
-    "Karen",
 ];
 
 //let hils = ["Yo", "Hallo", "Morn"];
@@ -102,6 +100,10 @@ function randomKul() {
             <button onclick="randAction(9)">Morn</button>
             <button onclick="randAction(7)">Yo</button>
             <button onclick="randAction(8)">Hallo</button>
+        `;
+    } else {
+        disp2.innerHTML = `
+            <button onclick="randomKul()">Kjør</button>  
         `;
     }
 }
