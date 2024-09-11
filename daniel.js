@@ -10,10 +10,60 @@ let value = 0;
 
 
 
+function drive(){
+if(){
+    
+}
 
 
 
 
+
+}
+
+function ignore(){
+
+
+
+
+
+
+
+}
+
+
+function pickUp(){
+
+
+
+
+
+
+}
+
+
+function hils1(){
+
+
+
+}
+
+    
+function hils2(){
+
+
+
+
+}
+
+function hils3(){
+
+
+
+
+
+
+}
 
 
 
