@@ -14,13 +14,13 @@ let textbox = [
 ];
 let value = 0;
 
-/* function drive() {
- *     if (textbox == [0]) {
- *         main.innerHTML = "";
- *     }
- *     console.log(drive);
- * }
- *  */
+ function driveText() {
+      if (textbox == [0]) {
+          main.innerHTML = "";
+      }
+      console.log(drive);
+  }
+ 
 function ignore() {
     if (textbox == [1]) {
         main.innerHTML = "";
