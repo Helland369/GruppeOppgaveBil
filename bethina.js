@@ -1,5 +1,5 @@
-let currentFriend = '';
-let preferredGreeting = '';
+let currentFriend = "";
+let preferredGreeting = "";
 
 function drive() {
     let randomEvent = Math.floor(Math.Random() * 4 + 1);
@@ -15,15 +15,10 @@ function drive() {
         currentFriend = randomFriend();
         preferredGreeting = randomGreeting();
     } else if (randomEvent === 3) {
-
-<<<<<<< HEAD
         // Du møter på Karen
     } else if (randomEvent === 4) {
-    
-        meetingKaren()
-        
-=======
->>>>>>> 1cb38f7 (Hei å hå)
+        meetingKaren();
+
         // Du møter på Karen
     } else if (randomEvent === 4) {
         foundItemText();
@@ -49,11 +44,11 @@ function greetFriend(selectedGreeting) {
 }
 
 function randomFriend() {
-    let friends = ['Thomas', 'Gytis', 'Lars', 'Bethina', 'Daniel'];
+    let friends = ["Thomas", "Gytis", "Lars", "Bethina", "Daniel"];
     return friends[Math.floor(Math.Random() * friends.length)];
 }
 
 function randomGreeting() {
-    let greeting = ['Hei!', 'High-Five!', 'Fist Bump!'];
+    let greeting = ["Hei!", "High-Five!", "Fist Bump!"];
     return greeting[Math.floor(Math.random() * greeting.length)];
 }
