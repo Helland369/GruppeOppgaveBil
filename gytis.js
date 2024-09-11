@@ -6,9 +6,9 @@ function updateView(){
     <button onclick="pickUp()">Plukk opp</button><br>
     
     <div id="hils">
-        <button onclick="hils1">What's up</button>
-        <button onclick="hils2">God dag</button>
-        <button onclick="hils3">High five</button>
+        <button onclick="hils1()">What's up</button>
+        <button onclick="hils2()">God dag</button>
+        <button onclick="hils3()">High five</button>
     </div>
 
     `
