@@ -5,6 +5,7 @@ dispMain();
 function dispMain() {
     main.innerHTML = `
         <div id="disp"></div>
+        <div id="disp2"></div>
         <button onclick="getRandomItem()">Kjør</button>
         <button onclick="randAction(1)">1</button>
         <button onclick="randAction(2)">2</button>
@@ -19,3 +20,4 @@ function dispMain() {
 }
 
 const disp = document.getElementById("disp");
+const disp2 = document.getElementById("disp2");

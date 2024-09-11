@@ -49,4 +49,23 @@ randomKul();
 
 function randomKul() {
     disp.innerHTML = random;
+    if (random == array[0]) {
+        disp2.innerHTML = `
+            <button onclick="randAction(1)">Kul1</button>
+            <button onclick="randAction(2)">Kul2</button>
+            <button onclick="randAction(3)">Kul3</button>
+        `;
+    } else if (random == array[1]) {
+        disp2.innerHTML = `
+            <button onclick="randAction(3)">Kul3</button>
+            <button onclick="randAction(2)">Kul2</button>
+            <button onclick="randAction(1)">Kul1</button>
+        `;
+    } else if (random == array[2]) {
+        disp2.innerHTML = `
+            <button onclick="randAction(1)">Kul1</button>
+            <button onclick="randAction(3)">Kul3</button>
+            <button onclick="randAction(2)">Kul2</button>
+        `;
+    }
 }
