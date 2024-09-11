@@ -6,7 +6,7 @@
 // textbox på HighFive
 
 let textbox = [
-    "You are driving",
+    "You are driving ",
     "you ingored karen",
     "you picked up karen",
     "you greeted karen",
