@@ -3,7 +3,7 @@ let preferredGreeting = '';
 
 
 function drive() {
-    let randomEvent = Math.floor(Math.Random() * 5 + 1);
+    let randomEvent = Math.floor(Math.Random() * 4 + 1);
 
     if (randomEvent === 1) {
         // Kjører videre og ingenting skjer
@@ -38,10 +38,10 @@ function greetFriend (selectedGreeting) {
 
 function randomFriend() {
     const friends = ['Thomas', 'Gytis', 'Lars', 'Bethina', 'Daniel'];
-    return friends [Math.floor(Math.Random() * friends.lengt)];
+    return friends [Math.floor(Math.Random() * friends.length)];
 }
 
 function randomGreeting (){
     const greeting = ['Hei!', 'High-Five!', 'Fist Bump!'];
-    return greeting[Math.floor(Math.random()* greeting.lengt)];
+    return greeting[Math.floor(Math.random()* greeting.length)];
 }
