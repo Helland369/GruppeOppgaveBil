@@ -30,9 +30,9 @@ function getRandomItem() {
 
 function greetFriend (selectedGreeting) {
     if (selectedGreeting === preferredGreeting) {
-        // Kompisen din likte hilsen din! Du får kjøre videre
+        // Kompisen din likte hilsen din! Du får 2 poeng og får kjøre videre
     }else {
-        // Kompisen din likte ikke hilsen din
+        // Kompisen din likte ikke hilsen din, minus 1 poeng!
     }
 }
 
