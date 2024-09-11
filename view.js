@@ -1,11 +1,6 @@
 const main = document.getElementById("main");
-let textbox = [
-    "You are driving ",
-    "you ingored karen",
-    "you picked up karen",
-    "you greeted karen",
-    "you high fived karen",
-];
+let eventBox = document.getElementById("textB");
+
 
 dispMain();
 
