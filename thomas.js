@@ -45,4 +45,8 @@ function randAction(select) {
     }
 }
 
-function randomKul() {}
+randomKul();
+
+function randomKul() {
+    disp.innerHTML = random;
+}
